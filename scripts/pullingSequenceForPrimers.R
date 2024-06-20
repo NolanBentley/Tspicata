@@ -1,5 +1,4 @@
-BiocManager::install("Biostrings") 
-library("Biostrings") #
+library("Biostrings") #BiocManager::install("Biostrings") 
 
 ref <- Biostrings::readDNAStringSet(filepath = "./data/data_ignored/T_spicatus_V2.2.fasta")
 

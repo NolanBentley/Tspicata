@@ -1,6 +1,6 @@
 #Setup analysis
 setwd("~/Experiments/Tspicata/")
-indelFile <- "Tspicata_both.d8.merged_indelSubset.csv"
+indelFile <- "./data/Tspicata_both.d8.merged_indelSubset.csv"
 
 #Load data
 library(data.table)
