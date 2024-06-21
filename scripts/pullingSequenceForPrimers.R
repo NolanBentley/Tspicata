@@ -4,7 +4,7 @@ ref <- Biostrings::readDNAStringSet(filepath = "./data/data_ignored/T_spicatus_V
 
 chrVec <- c('Contig_2','Contig_4','Contig_6','Contig_3','Contig_3','Contig_7','Contig_8')
 posVec <- c(20598628,6451385,13247919,1507108,3618088,14456053,36153)
-buffer <- 150
+buffer <- 200
 for(i in 1:length(chrVec)){
   currChr <-chrVec[i]
   currPos <- posVec[i]
